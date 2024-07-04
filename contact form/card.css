@@ -1,0 +1,37 @@
+.custom-card {
+    transition: transform 0.2s ease-in-out;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.custom-card:hover {
+    transform: scale(1.05);
+}
+
+.custom-card .card-image img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.custom-card .card-content {
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #f5f5f5;
+}
+
+.custom-card .title {
+    color: #3273dc; /* Bulma primary color */
+}
+
+.custom-card .subtitle {
+    color: #4a4a4a;
+}
+
+.custom-card .content a {
+    color: #3273dc; /* Bulma primary color */
+    text-decoration: none;
+}
+
+.custom-card .content a:hover {
+    text-decoration: underline;
+}
