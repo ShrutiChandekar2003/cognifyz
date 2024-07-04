@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paragraph</title>
+
+<style type="text/css">
+.img_deg{
+float: right;
+width:40%;
+
+
+}
+.pos_cen{
+    position:absolute;
+    width: 70%;
+    left:15%;
+    top:20%;
+    background-color: rgb(7, 18, 22);
+    padding:30px;
+
+
+
+
+}
+.heading{
+
+width:90%;
+display:flex;
+justify-content:center;
+flex-direction:column;
+text-align: center;
+margin:20px auto;
+
+
+
+
+}
+.heading h1{
+font-size:50px;
+color:#000;
+margin-bottom: 25px;
+position: relative;
+
+
+
+
+}
+.heading h1 ::after{
+content:"";
+position: absolute;
+width: 100%;
+height: 4px;
+display: block;
+margin: 0 auto;
+background-color: #4caf50;
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </style>
+</head>
+<body>
+    <div class="heading">
+        <h1>About Us</h1>
+    </div>
+   
+   <div class="pos_cen">
+    <img class="img_deg" src="data:image/jpeg;base64,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" alt="">
+
+    <p style="color: red;">The cat (Felis catus), commonly referred to as the domestic cat or house cat, is a small domesticated carnivorous mammal. It is the only domesticated species of the family Felidae. Recent advances in archaeology and genetics have shown that the domestication of the cat occurred in the Near East around 7500 BC. It is commonly kept as a house pet and farm cat, but also ranges freely as a feral cat avoiding human contact. It is valued by humans for companionship and its ability to kill vermin. Its retractable claws are adapted to killing small prey like mice and rats. It has a strong, flexible body, quick reflexes, and sharp teeth, and its night vision and sense of smell are well developed. It is a social species, but a solitary hunter and a crepuscular predator. Cat communication includes vocalizations like meowing, purring, trilling, hissing, growling, and grunting as well as cat body language. It can hear sounds too faint or too high in frequency for human ears, such as those made by small mammals. It secretes and perceives pheromones.
+
+        Female domestic cats can have kittens from spring to late autumn in temperate zones and throughout the year in equatorial regions, with litter sizes often ranging from two to five kittens. Domestic cats are bred and shown at events as registered pedigreed cats, a hobby known as cat fancy. Animal population control of cats may be achieved by spaying and neutering, but their proliferation and the abandonment of pets has resulted in large numbers of feral cats worldwide, contributing to the extinction of bird, mammal, and reptile species.
+        
+        As of 2017, the domestic cat was the second most popular pet in the United States, with 95.6 million cats owned and around 42 million households owning at least one cat. In the United Kingdom, 26% of adults have a cat, with an estimated population of 10.9 million pet cats as of 2020. As of 2021, there were an estimated 220 million owned and 480 million stray cats in the world.</p>
+    
+    </div>
+    
+    
+    </body>
+</html>
