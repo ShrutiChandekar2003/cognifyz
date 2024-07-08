@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="./task.css">
+</head>
+<body>
+    <div class="gallery">
+       
+        <img src="./download (1).jpg" alt="Image 1" class="thumbnail" onclick="openLightbox(); currentSlide(1)">
+        <img src="./download.jpg" alt="Image 2" class="thumbnail" onclick="openLightbox(); currentSlide(2)">
+        <img src="./level 2/titanic.jpg" alt="Image 3" class="thumbnail" onclick="openLightbox(); currentSlide(3)">
+        
+    </div>
+    <div class="gallery">
+    <img src="./level 2/mnt 1.jpg" alt="Image 1" class="thumbnail" onclick="openLightbox(); currentSlide(1)">
+        <img src="./level 2/mnt 2.jpg" alt="Image 2" class="thumbnail" onclick="openLightbox(); currentSlide(2)">
+        <img src="./level 2/mnt 3.jpg" alt="Image 3" class="thumbnail" onclick="openLightbox(); currentSlide(3)">
+        <!-- Add more images as needed -->
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img src="./download (1).jpg" alt="Image 1" class="lightbox-slide">
+            <img src="./download.jpg" alt="Image 2" class="lightbox-slide">
+            <img src="./level 2/titanic.jpg" alt="Image 3" class="lightbox-slide">
+            <img src="./" alt="Image 1" class="lightbox-slide">
+            <img src="image2.jpg" alt="Image 2" class="lightbox-slide">
+            <img src="image3.jpg" alt="Image 3" class="lightbox-slide">
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+
+    <div id="lightbox" class="lightbox">
+        <span class="close" onclick="closeLightbox()">&times;</span>
+        <div class="lightbox-content">
+            <img src="./level 2/1.jpg" alt="Image 1" class="lightbox-slide">
+            <img src="./level 2/mnt 2.jpg" alt="Image 2" class="lightbox-slide">
+            <img src="./level 2/mnt 3.jpg" alt="Image 3" class="lightbox-slide">
+           
+        </div>
+    </div>
+    <script src="task.js"></script>
+</body>
+</html>
