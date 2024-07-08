@@ -5,10 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web Developer Internship at Cognifyz Technologies</title>
     <link rel="stylesheet" href="./cognifyz.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 </head>
 <body>
+    <div class="top-bar">
+        <span><ion-icon name="call-outline"></ion-icon>111-2222-333</span>
+        <ul>
+            <li><a href="#"><ion-icon name="logo-facebook"></ion-icon>
+            </a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+            <li><a href="#"><ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+        </ul>
+    </div>
+   <nav>
+    <div class="logo">
+        <a href="#"><img src="data:image/png;base64,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" alt=""></a>
+    </div>
+    <div class="toggle">
+        <a href="#"><ion-icon name="menu-outline"></ion-icon>
+        </a>
+    </div>
+    <ul class="menu">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About us</a></li>
+        <li><a href="#">Internship</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Contact us</a></li>
+    </ul>
+   </nav>
     <header>
-        <h1>Web Developer Internship Opportunities at Cognifyz Technologies</h1>
+        <h2>Web Developer Internship Opportunities at Cognifyz Technologies</h2>
     </header>
     
     <section id="introduction">

@@ -1,3 +1,128 @@
+*{
+margin: 0;
+padding:0;
+box-sizing:border-box;
+
+
+
+
+}
+a, a:hover{
+
+
+    text-decoration: none;
+}
+.top-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 25px;
+    background: #007BFF;
+
+
+}
+.top-bar span{
+    color:#fff;
+
+
+}
+.top-bar ul{
+    list-style: none;
+    display:flex;
+    background: #007BFF;
+
+}
+.top-bar li{
+
+margin:0px 5px;
+
+
+}
+.top-bar a{
+    color:#fff;
+
+
+}
+.top-bar a{
+    color: #fff;
+
+
+}
+.top-bar a:hover{
+    color: #007BFF;
+
+
+}
+
+nav{
+
+    background:#222;
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+}
+nav a{
+    color: #FFF;
+
+}
+.nav a:hover{
+    color:#ef4b;
+
+}
+.logo {
+    flex: 1;
+
+}
+.logo a{
+    display:flex;
+    align-items: center;
+    font-size: 20px;
+
+}
+.logo a:hover{
+    color: #fff;
+
+}
+.menu{
+    display:flex;
+    align-items: center;
+    list-style: none;
+    
+
+}
+.menu li{
+    padding: 15px 10px;
+    font-size: 16px;
+
+
+}
+.toggle{
+font-size: 30px;
+display:none;
+
+
+
+
+}
+
+.logo img{
+    width: 40px;
+    margin-right: 10px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -5,9 +130,8 @@ body {
     line-height: 1.6;
     color: #333;
 }
-
 header {
-    background: #007BFF;
+    
     color: white;
     padding: 1em 0;
     text-align: center;
